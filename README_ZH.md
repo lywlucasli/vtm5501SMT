@@ -106,18 +106,18 @@ flowchart LR
 #### 2.3 欠料资料下载核验并发生给PMC
 * 检查备料作业后的状态
     * 选择 `需求` 菜单下面，标题栏为 `缺料量` 从大到小的排序，或者单击 `需求下载`
-    * ![图片1](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/1.png)
+    * ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/1.png)
     * 筛选 **缺料量** 大于0的数据，这些就是当前工单欠料数据。
-    * ![](file:///D:/APPs/VNote/VTM_SMT/files/image/2.png)
+    * ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/2.png)
     * 欠料数据会分为两种情况。
         * 物料不在智能货架上的，但是实际有料的。再次发料。
             1. 绑定作业
                 1. 找到实际需要发料的物料，需要大于 **缺料量** 的实际数量。
                 2. 在移动端，`作业菜单` 中选择 `绑定作业`
                 2. 选择当前作业的系统编号 `PICK-`开头的编号。可以参考 `生产订单`选择。或者搜索输入 `订单号或者PICK编号`。
-                - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/3.png)
+                - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/3.png)
                 3. 然后扫描需要发料的二维码，即可。
-                - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/4.png)
+                - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/4.png)
             2. 直接把欠料的数据再次上到智能料架上，然后再次 `检查库存` 选择 `批量出库` 即可。
         * 确定没有实际物料后，需要整理出一份欠料清单。
      * 确定实际欠料后，然后清单发送到PMC，让PMC跟进欠料数据。
@@ -129,16 +129,16 @@ flowchart LR
 #### 2.4 工单修改
 1. 工单物料修改，数量修改 **注意：需要根据PMC的出的Notes中的 `P0C` 指定信息修改**
     - 在 `备料作业` 界面，选择需要修改的 `生产订单`，单击.
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/5.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/5.png)
     - 然后选择标题 `需求`中的明细。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/6.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/6.png)
     - 可以增加物料号，修改其数量，增加或者减少。但是不能 **删除任何料号，修改为0就可以**
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/7.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/7.png)
    
 2. 工单物料已发，取消工单
     - 在 `备料作业` 界面，选择需要修改的 `生产订单`，单击.
     - 把里面所有的物料的数量修改为 **0** 就可以了。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/8.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/8.png)
     > 提示：如果是未发料的工单，需要取消中间的某个工单，那么就重新做发料资料，重新上传即可。
 
 ### 3. 退料、点数、上智能货架
@@ -156,27 +156,27 @@ flowchart LR
 * 点数完成后，单人操作退料上架。
 1. 打开当前相应的工单 `备料作业` 界面。
 2. 单击左上角的 `创建退料单`
-- ![](file:///D:/APPs/VNote/VTM_SMT/files/image/9.png)
+- ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/9.png)
 3. 界面会有一个二维码出现
-- ![](file:///D:/APPs/VNote/VTM_SMT/files/image/10.png)
+- ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/10.png)
 4. 操作员工，在PDA选择 `作业菜单` 然后选择 `退料入库`
 5. 先扫描 `备料作业` 界面的 `退料二维码`
-- ![](file:///D:/APPs/VNote/VTM_SMT/files/image/11.png)
+- ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/11.png)
 6. 然后扫描物料上的二维码，跟正常物料上架一样，直到扫描上架完成。
 ### 4. 计算损耗
 #### 4.1 退料上架完成后
 1. 打开当前相应的工单 `备料作业` 界面。
 2. 单击左上角的 `计算损耗`。
 3. 软件在滚动鼠标到中间，单击 `损耗下载`。
-- ![](file:///D:/APPs/VNote/VTM_SMT/files/image/12.png)
+- ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/12.png)
 4. 整理下载后的表格，筛选表格中的 `H`列，或者列名为 `损耗量`这列大于0的数据。
 5. 把 `料号` 列和 `损耗`列单独提取出来，这就是损耗的数据。
-- ![](file:///D:/APPs/VNote/VTM_SMT/files/image/13.png)
+- ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/13.png)
 
 ### 5.供料
 * 存在生产部作业中的工单，需要继续累加或者不退料的作业。
     1. 找到原有的工单
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/14.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/14.png)
     2. 重复 **2.1** 智能料架发料动作，只需要增加工单到原有工单中去即可
 
 ### 6.截料
@@ -185,41 +185,41 @@ flowchart LR
     2. 查询物料是被那个工单使用。
     3. 找到被使用的物料
     4. 在PDA的 `作业菜单` 中 `分盘解绑` 界面中解绑，扫描下物料二维码即可。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/15.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/15.png)
     5. 截取物料满足不同工单的数量，要大于需求数量。
     6. 然后分别打印两个标签。将物料在通过 `绑定作业`，绑定到这两个工单即可。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/16.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/16.png)
 
 ### 7. 其他操作
 #### 7.1 智能料架的库存查询
 - 可以查询到智能料架中所包含的物料的库存信息
     1. 登录系统
     2. 选择菜单的 `库存`，然后在选择菜单栏的 `原材料`进入库存查询界面。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/17.png)
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/18.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/17.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/18.png)
     3. 在输入框中搜索您需要的数据，需要按条件搜索。选择自己需要的条件即可。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/19.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/19.png)
 #### 7.2 智能料架的物料追溯
 - 可以追溯到物料的使用状态
     1. 登录系统
     2. 选择菜单的 `库存`，然后在选择菜单栏的 `物料追溯`进入界面。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/20.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/20.png)
     3. 在输入框中搜索您需要的数据，需要按条件搜索。选择自己需要的条件即可。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/21.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/21.png)
     4. 界面会显示物料的入库、出库等详细操作记录。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/22.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/22.png)
 #### 7.3 X-RAY点数机使用
 - 使用数机
     1. 在桌面单击 `CX7000L` 
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/24.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/24.png)
     2. 输入用户名和密码，都是 `admin`
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/25.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/25.png)
     3. 单击物理按钮 `RESET`,复位。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/26.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/26.png)
     4. 在软件界面在单击 `Init`,初始化软件。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/23.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/23.png)
     5. 上面就是设备初始化方法，初始化完成后，等待热机。完成即可点数工作。
     6. 把物料放在托盘中，然后单击设备按钮。**托盘一次只能最多放一个大卷盘， 或者4个小卷盘**
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/28.png)![](file:///D:/APPs/VNote/VTM_SMT/files/image/27.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/28.png)![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/27.png)
     7. 等待点数完成，托盘会自动打开。取出物料后，会自动打印实际物料数量的标签。重新覆盖到物料二维码上即可。
-    - ![](file:///D:/APPs/VNote/VTM_SMT/files/image/29.png)![](file:///D:/APPs/VNote/VTM_SMT/files/image/30.png)
+    - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/29.png)![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/30.png)
