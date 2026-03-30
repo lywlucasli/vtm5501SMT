@@ -34,7 +34,7 @@ flowchart LR
     - 输入事务代码 `MB52`
     - 在"Plant"和"Storage Location"字段分别输入"5501"和"QP00"
     - 点击左上角闹钟图标🕥或按 `F8` 执行
-    - 下载文档为Excel>打印>收货入仓。![MB52_QP00](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/MB52_QP00.gif)
+    - 下载文档为Excel>打印>收货入仓。
     - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/33.png)
     
 * **Notes** 下载QP00数据
@@ -42,7 +42,7 @@ flowchart LR
     - 单击 `SBU5-VTM IQC Inspection Document`
     - 单击 `Gen Report`
     - 单击 `4.Store Pass Report` 然后点击Ok即可。
-    - 整理表格然后打印发料资料。 ![Notes_QP00](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/Notes_QP00.gif)
+    - 整理表格然后打印发料资料。 
     - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/34.png)
     - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/35.png)
     
@@ -57,7 +57,7 @@ flowchart LR
     * 扫描物料上的 `Batch` 条码
     * 扫描货架位置，大卷物料智能货架位置为 `SB00`,小卷物料智能货架位置为 `SA00`
     * 核对扫描的数量和扫描入库的位置
-    * 单击保存 ![PAD_Mov](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/PAD_Mov.gif)
+    * 单击保存 
     * ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/38.png)
     
 * 2. 已完成QP00 PDA WMS 系统入库后，开始入库数据到智能货架.
@@ -74,7 +74,6 @@ flowchart LR
     * ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/43.png)
     * 然后把货物带到智能货架处，从上至下扫描货架左右边的第一个条码，名称是 `入库模式`
     * 然后再次扫描物料的二维码即可。扫描完后，看PDA所提示的颜色是否为绿色，如果是就可以把物料放在智能上
-    * ![PAD_A_UPQP00](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/PAD_A_UPQP00.gif)
     * > 扫描的条码只能是VTECH的二维码，不能是别的条码。并且扫描的是那一卷物料，那么只能放那一卷物料到智能料架上，并且只允许`同一个智能货架的A或者B面，只能同时一个作业工作。不允许多人操作。`
 
 ### 2. 智能货架发料
@@ -88,7 +87,7 @@ flowchart LR
     * 选择 `SO3 货仓备料 PrePare`
     * ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/45.png)
     * 输入工单号，完成后按下**回车键**
-    * 单击页面 `Export` 导出excel资料 ![gif](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/vtm_sbu5_downlist.gif)
+    * 单击页面 `Export` 导出excel资料 
     * ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/46.png)
 #### 2.2 智能货架发料
 * 资料上传，发料。
@@ -123,7 +122,6 @@ flowchart LR
     * 根据智能货架的大灯 **灯色提示** ( `绿色` 为货架正常， `黄色` 为需要作业货架， `红色` 为异常货架)，选择 `黄色` 的智能货架。拿去待出库的物料，放到指定的区域。并贴上标识牌。（ **标识牌必要信息为** ：工单号，客户，Model，套数）
     * 最后为了确认是否出库完成，需要再次单击 `检查库存` ,确保所有能出库的物料，全部出库。
     * 再次作业后，再次点击 `检查库存`，系统如果没有任何反应，代表已经完成了所有物料出库。不能再次亮灯了。
-    * ![gif](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/EST_UPlist.gif)
     
 #### 2.3 欠料资料下载核验并发生给PMC
 * 检查备料作业后的状态

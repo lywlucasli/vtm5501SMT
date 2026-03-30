@@ -34,7 +34,7 @@ flowchart LR
     - Enter transaction code `MB52`
     - Input "5501" in "Plant" and "QP00" in "Storage Location" fields
     - Click the clock icon 🕥 or press `F8` to execute
-    - Download document as Excel>Print>Receive and Store. ![MB52_QP00](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/MB52_QP00.gif)
+    - Download document as Excel>Print>Receive and Store. 
     - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/33.png)
     
 * **Notes** Download QP00 Data
@@ -42,7 +42,7 @@ flowchart LR
     - Click `SBU5-VTM IQC Inspection Document`
     - Click `Gen Report`
     - Click `4.Store Pass Report` then click Ok.
-    - Organize the table then print material issue information. ![Notes_QP00](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/Notes_QP00.gif)
+    - Organize the table then print material issue information. 
     - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/34.png)
     - ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/35.png)
     
@@ -57,7 +57,7 @@ flowchart LR
     * Scan the `Batch` barcode on the material
     * Scan shelf location, large reels smart shelf location is `SB00`, small reels smart shelf location is `SA00`
     * Verify scanned quantity and scanning storage location
-    * Click save ![PAD_Mov](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/PAD_Mov.gif)
+    * Click save 
     * ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/38.png)
     
 * 2. After completing QP00 PDA WMS system storage, start storing data into smart shelf.
@@ -74,7 +74,6 @@ flowchart LR
     * ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/43.png)
     * Then bring goods to smart shelf, scan the first barcode on left and right sides of shelf from top to bottom, named `Storage Mode`
     * Then scan the QR code of the material. After scanning, check if the color prompted by PDA is green, if so you can place the material on smart shelf
-    * ![PAD_A_UPQP00](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/PAD_A_UPQP00.gif)
     * > The scanned barcode can only be VTECH QR code, not other barcodes. And the scanned reel of material, then only that reel can be placed on smart shelf, and only allows `same smart shelf A or B side, can only have simultaneous single operation work. No multiple people operations.`
 
 ### 2. Smart Shelf Material Issue
@@ -88,7 +87,7 @@ flowchart LR
     * Select `SO3 Warehouse Preparation PrePare`
     * ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/45.png)
     * Enter work order number, then press **Enter key**
-    * Click page `Export` to export excel data ![gif](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/vtm_sbu5_downlist.gif)
+    * Click page `Export` to export excel data 
     * ![](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/image/46.png)
 #### 2.2 Smart Shelf Material Issue
 * Data upload, material issue.
@@ -123,7 +122,6 @@ flowchart LR
     * According to smart shelf main light **light color prompt** (`Green` for normal shelf, `Yellow` for operation needed shelf, `Red` for abnormal shelf), select `Yellow` smart shelf. Take the materials to be outbound to designated area. And attach identification tag. (**Necessary information on identification tag**: Work Order Number, Customer, Model, Sets)
     * Finally to confirm if outbound completed, need to click `Check Inventory` again, ensure all materials that can be outbound are fully outbound.
     * After re-operation, click `Check Inventory` again, if system has no reaction, means all material outbound completed. Cannot light up again.
-    * ![gif](https://github.com/lywlucasli/vtm5501SMT/blob/main/files/gif/EST_UPlist.gif)
     
 #### 2.3 Shortage Data Download Verification and Send to PMC
 * Check preparation operation status
